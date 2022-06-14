@@ -1,0 +1,36 @@
+body {
+    margin: 10px;
+    padding: 50px;
+    font-size: 25px;
+}
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%; 
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.65em;
+    letter-spacing: 1.5px;
+}
+
+td, th {
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background: #eee;
+}
