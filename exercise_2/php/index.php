@@ -13,10 +13,10 @@
       <?php include 'main.data.php' ?>
   </div>
 
-  <h1>Таблица гибкой истинности PHP</h1>
+  <h1>Таблица гибкого сравнения PHP</h1>
 
   <table>
-    <colgroup>
+    <colgroup> <!-- colgroup allows to change the layout of the first table column. In this instance it is used to set the colour -->
         <col span="1" style= "background-color: #eee; font-weight: bold">
     </colgroup>
     <tr>
@@ -122,7 +122,7 @@
 
   <br>
   <br>
-  <h1>Таблица жестокой истинности PHP</h1>
+  <h1>Таблица жестокого сравнения PHP</h1>
 
   <table>
     <colgroup>
